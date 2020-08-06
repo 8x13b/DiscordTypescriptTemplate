@@ -1,1 +1,5 @@
+# heavy ass node modules
 node_modules/
+
+# not losing my token xd
+src/Config.ts

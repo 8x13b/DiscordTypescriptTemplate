@@ -20,6 +20,6 @@ export default class PingCommand extends Command {
 
     public exec(message: Message): Promise<Message> {
         time()
-        return message.util.send(`Pong! \`${this.client.ws.ping}ms\``).then(message.edit(tim))
+        return message.util.send(`Pong! \`${this.client.ws.ping}ms\``)
     }
 }
